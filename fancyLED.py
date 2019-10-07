@@ -1,3 +1,8 @@
+# Lukas Hange
+# This assignment Supports the Led and creates the functions for Fancy Led Main to run
+# 10/2/19
+
+
 import time #pylint: disable-msg=import-error
 import board #pylint: disable-msg=import-error
 import digitalio#pylint: disable-msg=import-error
@@ -17,7 +22,7 @@ class FancyLED:
         self.led3.direction = digitalio.Direction.OUTPUT
 
       
-    def alternate(self):
+    def alternate(self): # makes two outside Leds and middle Led off then the opposite
         self.led1.value = True
         self.led2.value = False
         self.led3.value = True
@@ -27,7 +32,7 @@ class FancyLED:
         self.led2.value = True
         self.led3.value = False
 
-    def blink(self):
+    def blink(self):# all LEDS off then all on
         self.led1.value = True
         self.led2.value = True
         self.led3.value = True
@@ -37,7 +42,7 @@ class FancyLED:
         self.led2.value = False
         self.led3.value = False
 
-    def chase(self):
+    def chase(self):# makes Leds from left to right turn on then off after the next LED turns on
         self.led1.value = True
         self.led2.value = False
         self.led3.value = False
@@ -53,24 +58,24 @@ class FancyLED:
         self.led3.value = True
         time.sleep(.25)
 
-    def sparkle(self):
+    def sparkle(self):# makes random leds turn on then off
         n = random.randint(1,3)
 
         if n == 1:
             self.led1.value = True
-            time.sleep(.25)
+            time.sleep(.15)
             self.led1.value = False
         if n == 2:
             self.led2.value = True
-            time.sleep(.25)
+            time.sleep(.15)
             self.led2.value = False
         if n == 3:
             self.led3.value = True
-            time.sleep(.25)
+            time.sleep(.15)
             self.led3.value = False
 
 
-    def on(self):
+    def on(self):# this was just used to test the LEDs
         self.led1.value = True
         self.led2.value = True
         self.led3.value = True
