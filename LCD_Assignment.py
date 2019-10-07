@@ -1,15 +1,14 @@
 #Lukas Hange
-# LCD assignment button press with switch
-# This assignment makes while make your button counter go up when
-#switched one way and the other when flipped the other way
+# LCD assignment button press with switch this assignment makes while make your button counter go up when switched one way and the other when flipped the other way
+#8/30/19
 
 
-import board
+import board #importing everything needed
 import math
 import time
 import digitalio
 import adafruit_bus_device
-#import touchio
+
 from lcd.lcd import LCD
 
 from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
