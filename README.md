@@ -39,6 +39,7 @@ Uses a sensor to read distance and changes color of onboard LED accordingly.
 
 ### Description
 Depending on which wire is touched will rotate an servo a certain direction.
+
 ### Lesson(s) Learned
 
 
@@ -46,6 +47,7 @@ Depending on which wire is touched will rotate an servo a certain direction.
 
 ### Description
 Making 2 different LEDs change between 3 specific RGB values and then start at red and fade through the rainbow and end back on red.
+
 ###Lesson(s) Learned
 
 
@@ -53,4 +55,12 @@ Making 2 different LEDs change between 3 specific RGB values and then start at r
 
 ### Description
 Intro to using VS Code and how to setup VS code with python.
+
 ###Lesson(s) Learned
+
+
+##
+
+### Description
+
+### Lesson(s) Learned
