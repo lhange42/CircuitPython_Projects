@@ -3,17 +3,17 @@
 #8/30/19
 
 
-import board #importing everything needed
-import math
+import board #pylint: disable-msg=import-error 
+import math #pylint: disable-msg=import-error
 import time
-import digitalio
-import adafruit_bus_device
+import digitalio #pylint: disable-msg=import-error
+import adafruit_bus_device #pylint: disable-msg=import-error
 
-from lcd.lcd import LCD
+from lcd.lcd import LCD #pylint: disable-msg=import-error
 
-from lcd.i2c_pcf8574_interface import I2CPCF8574Interface
+from lcd.i2c_pcf8574_interface import I2CPCF8574Interface #pylint: disable-msg=import-error
 
-from lcd.lcd import CursorMode
+from lcd.lcd import CursorMode #pylint: disable-msg=import-error
 
 
 button = digitalio.DigitalInOut(board.D2)
@@ -54,8 +54,8 @@ while True:
 
     elif oldSwitchState == 0 and newSwitchState == 1:
 
-        if SwitchState.value:
-            adder = 1
+        if SwitchState.value:# When the switch is on this makes the counter go up
+            adder = 1 
         else:
             adder = -1
         print("1")
