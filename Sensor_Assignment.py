@@ -23,19 +23,22 @@ while True:
 
 
 
+   while True:
+
     try:
         print((sonar.distance,))
+        if sonar.distance <= 20:
 
-        if sonar.distance < 20 :
-            r = simpleio.map_range(sonar.distance,0,20,255,0)
-            b = simpleio.map_range(sonar.distance,5,20,0,255)
-            g = simpleio.map_range(sonar.distance,20,35,0,255)
+            r = simpleio.map_range(sonar.distance, 0,20,255,0)
+            b = simpleio.map_range(sonar.distance, 5,20,0,255)
+            g = simpleio.map_range(sonar.distance, 20,35,0,255)
+
         else:
-            r = simpleio.map_range(sonar.distance,0,20,255,0)
-            b = simpleio.map_range(sonar.distance,35,20,255,0)
-            g = simpleio.map_range(sonar.distance,20,35,0,255)
+            r = simpleio.map_range(sonar.distance, 0,20,255,0)
+            b = simpleio.map_range(sonar.distance, 35,20,0,255)
+            g = simpleio.map_range(sonar.distance, 20,35,0,255)
 
-        dot.fill((int(r),int(b),int(g)))
+        dot.fill((int(r),int(g),int(b)))
     except RuntimeError:
         print("Retrying!")
 

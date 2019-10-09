@@ -7,14 +7,14 @@
 
 
 
-import board
+import board#pylint: disable-msg=import-error
 import math
 import time
-import digitalio
-import adafruit_bus_device
+import digitalio#pylint: disable-msg=import-error
+import adafruit_bus_device#pylint: disable-msg=import-error
 
 
-photoPin = digitalio.DigitalInOut(board.D8)
+photoPin = digitalio.DigitalInOut(board.D8)#Sets up pin 8
 photoPin.direction = digitalio.Direction.INPUT
 photoPin.pull = digitalio.Pull.UP
 
@@ -28,15 +28,15 @@ fread = True
 
 
 while True:
-    now = time.monotonic()
+    now = time.monotonic()#works as a timer so it counts down
 
     if now - initial == 4:
-        print("Number of interruptions: " + str(Interrupts))
+        print("Number of interruptions: " + str(Interrupts))# print the amount of interrupts in that period
         initial = time.monotonic()
 
     if photoPin.value:
         lread = True
 
-    elif fread == lread:
-        Interrupts +=1
+    elif fread == lread:# Is an esle if statement
+        Interrupts +=1# adds one interrupt
         lread = not lread

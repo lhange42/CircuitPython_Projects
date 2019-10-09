@@ -30,19 +30,19 @@ lcd = LCD(I2CPCF8574Interface(0x27), num_rows=2, num_cols=16)
 
 
 
-counter = 0
+counter = 0 
 oldSwitchState = 0
 newSwitchState = 1
 adder=1
 
 while True:
 
-    lcd.clear()
-    lcd.set_cursor_pos(1,0)
+    lcd.clear() # clears LCD
+    lcd.set_cursor_pos(1,0) # sets position of LCD text
     lcd.print("pressed:")
 
     lcd.set_cursor_pos(1,9)
-    lcd.print(str(counter))
+    lcd.print(str(counter)) # prints the string number
 
 
 
@@ -56,9 +56,9 @@ while True:
 
         if SwitchState.value:# When the switch is on this makes the counter go up
             adder = 1 
-        else:
+        else:# When the swtich is off makes the counter go down
             adder = -1
-        print("1")
+        print("1") 
 
 
         time.sleep(0.05)
