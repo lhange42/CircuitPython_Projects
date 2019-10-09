@@ -18,13 +18,13 @@ Will read the amount of interruptions within a 4 second interval and print out h
 ### Lesson(s) Learned
 
 
-## led_Assignemnt
+## led_Assignemnt(Hello CircuitPython)
 
 ### Description
 Will make an LED fade in and out.
 
 ### Lesson(s) Learned
-
+I learned how to use, stup Libraries, and howw to make an Led Fade in Mu.
 
 ## Sensor_Assignment
 
