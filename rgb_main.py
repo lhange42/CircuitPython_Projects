@@ -1,10 +1,10 @@
-import board
-import neopixel
+import board#pylint: disable-msg=import-error
+import neopixel#pylint: disable-msg=import-error
 import time
-import digitalio
-import pulseio
-import touchio
-import adafruit_motor
+import digitalio#pylint: disable-msg=import-error
+import pulseio#pylint: disable-msg=import-error
+import touchio#pylint: disable-msg=import-error
+import adafruit_motor#pylint: disable-msg=import-error
 
 
 from rgb import RGB
@@ -34,25 +34,25 @@ myRGB1.change_name("rex")
 
 
 
-myRGB1.red() # Glow red
+myRGB1.red() # first RGB LED glow red
 
-myRGB2.green()        # Glow green
-
-time.sleep(1)
-
-myRGB1.blue()         # Glow blue
-
-myRGB2.cyan()         # Glow... you get it...
+myRGB2.green()   # second RGB LED glow green
 
 time.sleep(1)
 
-myRGB1.magenta()      # Did you know magenta isn't in the rainbow?
+myRGB1.blue()    # first RGB LED glow blue
 
-myRGB2.yellow() # Like you learned in first grade, red and green make... huh?
+myRGB2.cyan()   # second RGB LED glow cyan
+
+time.sleep(1)
+
+myRGB1.magenta() # first RGB LED glow magenta
+
+myRGB2.yellow() # second RGB LED glow yellow
 
 time.sleep(1)
 # extra spicy (optional) part
-myRGB1.rainbow(rate1) # Fade through the colors of the rainbow at the given rate.  Oooooh, pretty!
+myRGB1.rainbow(rate1) # first RGB LED Fade through the colors of the rainbow at the given rate.
 
-myRGB2.rainbow(rate2) # Fade through the colors of the rainbow at the given rate.  Oooooh, pretty!
+myRGB2.rainbow(rate2) # second RGB LEDFade through the colors of the rainbow at the given rate.  
 time.sleep(1)
