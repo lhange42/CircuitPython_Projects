@@ -7,7 +7,7 @@ My CircuitPython_Assinments
 Will display a counter that goes either up 1 or down when a button is clicked depending on the state of switch.
 
 
-<img src="media/LCDWiring.png" width="75">
+<img src="media/LCDWiring.png" width="200">
 
 ### Lesson(s) Learned
 *
