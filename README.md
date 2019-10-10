@@ -1,6 +1,29 @@
 # CircuitPython
 My CircuitPython_Assinments
 
+
+## led_Assignemnt(Hello CircuitPython)
+
+### Description
+Make an LED fade in and out using Mu and a Metro Board using Circuit .
+
+### Lesson(s) Learned
+I learned how to use, setup Libraries, and howw to make an Led Fade in Mu.
+
+
+<img src="media/LED_Fade_Fritzing_bb.png" width="300">
+
+
+## Servo_Capacitive_Touch_Assignment 
+
+### Description
+Depending on which wire is touched will rotate an servo a certain direction.
+
+<img src="media/Servo_bb.png" width="300">
+
+### Lesson(s) Learned
+
+
 ## LCD_Assignment 
 
 ### Description
@@ -24,33 +47,10 @@ Will read the amount of interruptions within a 4 second interval and print out h
 ### Lesson(s) Learned
 
 
-## led_Assignemnt(Hello CircuitPython)
-
-### Description
-Will make an LED fade in and out.
-
-### Lesson(s) Learned
-I learned how to use, stup Libraries, and howw to make an Led Fade in Mu.
-
-
-<img src="media/LED_Fade_Fritzing_bb.png" width="300">
-
-
 ## Sensor_Assignment
 
 ### Description
 Uses a sensor to read distance and changes color of onboard LED accordingly.
-
-### Lesson(s) Learned
-
-
-
-## Servo_Capacitive_Touch_Assignment 
-
-### Description
-Depending on which wire is touched will rotate an servo a certain direction.
-
-<img src="media/Servo_bb.png" width="300">
 
 ### Lesson(s) Learned
 
@@ -71,8 +71,11 @@ Intro to using VS Code and how to setup VS code with python.
 ###Lesson(s) Learned
 
 
-##
+## Fancy LED
 
 ### Description
+Using six LEDS you have to make half of them do a certain action in this case alternate, sprkle, blink, and chase by making libraries.
 
 ### Lesson(s) Learned
+
+
