@@ -18,6 +18,9 @@ Will display a counter that goes either up 1 or down when a button is clicked de
 ### Description
 Will read the amount of interruptions within a 4 second interval and print out how many interruptions there were
 
+
+<img src="media/Photointerrupter%20assignment.png" width="300">
+
 ### Lesson(s) Learned
 
 
@@ -28,6 +31,10 @@ Will make an LED fade in and out.
 
 ### Lesson(s) Learned
 I learned how to use, stup Libraries, and howw to make an Led Fade in Mu.
+
+
+<img src="media/LED_Fade_Fritzing_bb.png" width="300">
+
 
 ## Sensor_Assignment
 
@@ -42,6 +49,8 @@ Uses a sensor to read distance and changes color of onboard LED accordingly.
 
 ### Description
 Depending on which wire is touched will rotate an servo a certain direction.
+
+<img src="media/Servo_bb.png" width="300">
 
 ### Lesson(s) Learned
 
