@@ -61,7 +61,7 @@ This was my first time using a HC-SRO4 in CircuitPython so there was a bit of re
 Making 2 different LEDs change between 3 specific RGB values and then start at red and fade through the rainbow and end back on red.
 
 ### Lesson(s) Learned
-
+Thiswas my first time working with an RGB LED so I got to learn the wiring for it and also how to code one. We had to create our own libraries which was new and challenging.
 
 ## Hello VS Code
 
@@ -69,7 +69,7 @@ Making 2 different LEDs change between 3 specific RGB values and then start at r
 Intro to using VS Code and how to setup VS code with python.
 
 ###Lesson(s) Learned
-
+This was our introduction to VS Code making it somewhat difficult to setup everything. The assignment itself was very simple. Also I learned how to add VS Code projects to Github wihch is a lot easier then Git Bash.
 
 ## Fancy LED
 
@@ -77,5 +77,5 @@ Intro to using VS Code and how to setup VS code with python.
 Using six LEDS you have to make half of them do a certain action in this case alternate, sprkle, blink, and chase by making libraries.
 
 ### Lesson(s) Learned
-
+We learned a lot of new VS Code commands and other code. It was similar to RGB LED since we had to create our own libraries. THis assignmnet once we got past the errors about no module named digitalio the assignment was not that challenging.
 
