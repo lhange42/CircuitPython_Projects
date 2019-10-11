@@ -73,7 +73,7 @@ Thiswas my first time working with an RGB LED so I got to learn the wiring for i
 ### Description
 Intro to using VS Code and how to setup VS code with python.
 
-###Lesson(s) Learned
+### Lesson(s) Learned
 This was our introduction to VS Code making it somewhat difficult to setup everything. The assignment itself was very simple. Also I learned how to add VS Code projects to Github wihch is a lot easier then Git Bash.
 
 ## Fancy LED
