@@ -52,6 +52,9 @@ In this assignment we had to wait 4 seconds but not use a time dot sleep so that
 ### Description
 Uses a sensor to read distance and changes color of onboard LED accordingly.
 
+
+<img src="media/Distance_Sensor.png" width="300">
+
 ### Lesson(s) Learned
 This was my first time using a HC-SRO4 in CircuitPython so there was a bit of researching/googling required to figure out how to use it in CircuitPython. Also this was my first use of mapping with CircuitPython.
 
@@ -59,6 +62,8 @@ This was my first time using a HC-SRO4 in CircuitPython so there was a bit of re
 
 ### Description
 Making 2 different LEDs change between 3 specific RGB values and then start at red and fade through the rainbow and end back on red.
+
+<img src="media/Untitled%20Sketch%202_bb.png" width="300">
 
 ### Lesson(s) Learned
 Thiswas my first time working with an RGB LED so I got to learn the wiring for it and also how to code one. We had to create our own libraries which was new and challenging.
@@ -75,6 +80,9 @@ This was our introduction to VS Code making it somewhat difficult to setup every
 
 ### Description
 Using six LEDS you have to make half of them do a certain action in this case alternate, sprkle, blink, and chase by making libraries.
+
+
+<img src="media/FancyLED_bb.png" width="300">
 
 ### Lesson(s) Learned
 We learned a lot of new VS Code commands and other code. It was similar to RGB LED since we had to create our own libraries. THis assignmnet once we got past the errors about no module named digitalio the assignment was not that challenging.
