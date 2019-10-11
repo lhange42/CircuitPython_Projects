@@ -8,7 +8,7 @@ My CircuitPython_Assinments
 Make an LED fade in and out using Mu and a Metro Board using Circuit .
 
 ### Lesson(s) Learned
-I learned how to use, setup Libraries, and howw to make an Led Fade in Mu.
+I learned how to use, setup Libraries, and the code used with LEDs. This was an intoduction to CircuitPython so this assignment helped me learn how the commands in Circuit Python. Circuitpython is very different from Arduino so it was a big change.
 
 
 <img src="media/LED_Fade_Fritzing_bb.png" width="300">
@@ -22,7 +22,7 @@ Depending on which wire is touched will rotate an servo a certain direction.
 <img src="media/Servo_bb.png" width="300">
 
 ### Lesson(s) Learned
-
+I learned how to use a PWM pin which was different from the setup of digital and analog pins. Also I have never done anything like capacitive touch before which meant it required a lot of research. 
 
 ## LCD_Assignment 
 
@@ -33,8 +33,8 @@ Will display a counter that goes either up 1 or down when a button is clicked de
 <img src="media/LCDWiring.png" width="300">
 
 ### Lesson(s) Learned
-*
-
+This was the first time coding a button and a switch in CircuitPython meaning it required a bit of research. 
+When making the assignment the button was a bit fidgety so it helped me improve my timing skills in CircuitPyton.
 
 ## PhotoInterruptor
 
@@ -53,7 +53,7 @@ Will read the amount of interruptions within a 4 second interval and print out h
 Uses a sensor to read distance and changes color of onboard LED accordingly.
 
 ### Lesson(s) Learned
-
+This was my first time using a HC-SRO4 in CircuitPython so there was a bit of researching/googling required to figure out how to use it in CircuitPython. Also this was my first use of mapping with CircuitPython.
 
 ## RGB
 
