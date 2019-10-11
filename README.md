@@ -45,7 +45,7 @@ Will read the amount of interruptions within a 4 second interval and print out h
 <img src="media/Photointerrupter%20assignment.png" width="300">
 
 ### Lesson(s) Learned
-
+In this assignment we had to wait 4 seconds but not use a time dot sleep so thats when we learned time.monotonic. Which essentialy counts a designated amount of time in this case for seconds and after those 4 second it prints what changed, the number of Interruptions, and then repeats the process. 
 
 ## Sensor_Assignment
 
@@ -60,7 +60,7 @@ This was my first time using a HC-SRO4 in CircuitPython so there was a bit of re
 ### Description
 Making 2 different LEDs change between 3 specific RGB values and then start at red and fade through the rainbow and end back on red.
 
-###Lesson(s) Learned
+### Lesson(s) Learned
 
 
 ## Hello VS Code
